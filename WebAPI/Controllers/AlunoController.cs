@@ -10,23 +10,24 @@ namespace WebAPI.Controllers
         // GET: api/Aluno
         public IEnumerable<Alunos> Get()
         {
-            Alunos aluno = new Alunos();
+            var aluno = new Alunos();
             return aluno.ListaAlunos();
         }
 
         // GET: api/Aluno/5
         public Alunos Get(int id)
         {
-            Alunos aluno = new Alunos();
+            var aluno = new Alunos();
             return aluno.ListaAlunos().Where(x => x.Id == id).FirstOrDefault();
         }
 
         // POST: api/Aluno
         public List<Alunos> Post(Alunos aluno)
         {
-            var alunos = new List<Alunos>();
-
-            alunos.Add(aluno);
+            var alunos = new List<Alunos>
+            {
+                aluno
+            };
             return alunos;
         }
 
