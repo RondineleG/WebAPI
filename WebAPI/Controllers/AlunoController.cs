@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Web.Http;
+using WebAPI.Models;
 
 namespace WebAPI.Controllers
 {
@@ -14,7 +15,8 @@ namespace WebAPI.Controllers
         // GET: api/Aluno/5
         public string Get(int id)
         {
-            return "value";
+            Alunos aluno = new Alunos();
+            return aluno.ListaAlunos();
         }
 
         // POST: api/Aluno
