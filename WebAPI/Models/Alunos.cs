@@ -25,11 +25,11 @@ namespace WebAPI.Models
             aluno.Ra = "13145445";
 
             Alunos aluno1 = new Alunos();
-            aluno1.Id = 1;
+            aluno1.Id = 2;
             aluno1.Nome = "Beatriz";
             aluno1.SobreNome = "Guimarães";
-            aluno1.Telefone = "1221211";
-            aluno1.Ra = "13145445";
+            aluno1.Telefone = "45454545";
+            aluno1.Ra = "15544666";
 
             var listaAlunos = new List<Alunos>();
             listaAlunos.Add(aluno);
