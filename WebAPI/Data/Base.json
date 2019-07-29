@@ -1,0 +1,23 @@
+﻿[
+  {
+    "Id": 1,
+    "Nome": "Rondinele",
+    "SobreNome": "Guimarães",
+    "Telefone": "1221211",
+    "Ra": "13145445"
+  },
+  {
+    "Id": 2,
+    "Nome": "Beatriz",
+    "SobreNome": "Guimarães",
+    "Telefone": "45454545",
+    "Ra": "15544666"
+  },
+  {
+    "Id": 3,
+    "Nome": "Gabriela",
+    "SobreNome": "Guimarães",
+    "Telefone": "64124454",
+    "Ra": "22345412"
+  }
+]
