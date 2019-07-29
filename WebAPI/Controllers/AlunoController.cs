@@ -7,16 +7,16 @@ namespace WebAPI.Controllers
     public class AlunoController : ApiController
     {
         // GET: api/Aluno
-        public IEnumerable<string> Get()
+        public IEnumerable<Alunos> Get()
         {
-            return new string[] { "Rondinele", "Beatriz" };
+            Alunos aluno = new Alunos();
+            return aluno.ListaAlunos();
         }
 
         // GET: api/Aluno/5
         public string Get(int id)
         {
-            Alunos aluno = new Alunos();
-            return aluno.ListaAlunos();
+            return "";
         }
 
         // POST: api/Aluno
